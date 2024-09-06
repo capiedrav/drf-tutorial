@@ -1,0 +1,15 @@
+services:
+  web:
+   build: .
+
+   command: python /drf-tutorial/manage.py runserver 0.0.0.0:8000
+
+   volumes:
+     - type: bind
+       source: ./
+       target: /drf-tutorial
+
+   ports:
+     - 8000:8000
+
+   container_name: drf-tutorial-container
