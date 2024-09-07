@@ -26,8 +26,21 @@ dependencies:
   - zlib=1.2.13=h5eee18b_1
   - pip:
       - asgiref==3.8.1
+      - certifi==2024.8.30
+      - charset-normalizer==3.3.2
+      - defusedxml==0.7.1
       - django==4.2
       - djangorestframework==3.15.2
+      - httpie==3.2.3
+      - idna==3.8
+      - markdown-it-py==3.0.0
+      - mdurl==0.1.2
+      - multidict==6.0.5
       - pygments==2.18.0
+      - pysocks==1.7.1
+      - requests==2.31.0
+      - requests-toolbelt==1.0.0
+      - rich==13.8.0
       - sqlparse==0.5.1
+      - urllib3==2.2.2
 prefix: /opt/anaconda3/envs/drf-tutorial
